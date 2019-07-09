@@ -34,9 +34,9 @@
 #define RETRY_US 500000
 
 #ifdef __LP64__
-#define OFFLOAD_FX_LIBRARY_PATH "/system/lib64/soundfx/libnvvisualizer.so"
+#define OFFLOAD_FX_LIBRARY_PATH "/vendor/lib64/soundfx/libvisualizer.so"
 #else
-#define OFFLOAD_FX_LIBRARY_PATH "/system/lib/soundfx/libnvvisualizer.so"
+#define OFFLOAD_FX_LIBRARY_PATH "/vendor/lib/soundfx/libvisualizer.so"
 #endif
 
 #ifdef PREPROCESSING_ENABLED
